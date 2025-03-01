@@ -9,4 +9,8 @@ public class Product2 {
     public void setFeatureC(String featureC) {
         this.featureC = featureC;
     }
+    @Override
+    public String toString() {
+        return "Product2 { " + featureA + ", " + featureB + ", " + featureC + " }";
+    }
 }

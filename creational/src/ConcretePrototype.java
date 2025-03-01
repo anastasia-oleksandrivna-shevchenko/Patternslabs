@@ -7,4 +7,8 @@ public class ConcretePrototype implements Prototype {
     public Prototype clone(){
         return new ConcretePrototype(this.field);
     }
+    @Override
+    public String toString() {
+        return "field = " + field;
+    }
 }
