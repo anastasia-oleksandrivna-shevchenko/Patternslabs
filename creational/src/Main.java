@@ -1,4 +1,13 @@
-import java.util.ArrayList;
+import ua.shevchenko.abstractFactory.AbstractFactory;
+import ua.shevchenko.abstractFactory.FactoryA;
+import ua.shevchenko.abstractFactory.FactoryB;
+import ua.shevchenko.builder.ConcreteBuilder1;
+import ua.shevchenko.builder.ConcreteBuilder2;
+import ua.shevchenko.builder.Product1;
+import ua.shevchenko.builder.Product2;
+import ua.shevchenko.factory.*;
+import ua.shevchenko.prototype.ConcretePrototype;
+import ua.shevchenko.singleton.Singleton;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
